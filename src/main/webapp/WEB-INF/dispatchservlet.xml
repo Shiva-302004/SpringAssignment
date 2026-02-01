@@ -29,7 +29,7 @@ http://www.springframework.org/schema/beans ">
           class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 
         <property name="dataSource" ref="dataSource"/>
-        <property name="packagesToScan" value="org.example"/>
+        <property name="packagesToScan" value="com.gevernova"/>
 
         <property name="hibernateProperties">
             <props>
@@ -54,7 +54,7 @@ http://www.springframework.org/schema/beans ">
     <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
 
     <!-- Component Scan -->
-    <context:component-scan base-package="org.example"/>
+    <context:component-scan base-package="com.gevernova"/>
 
     <!-- Enable @Controller, @RequestMapping, etc -->
     <mvc:annotation-driven/>
