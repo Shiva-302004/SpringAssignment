@@ -54,7 +54,7 @@ http://www.springframework.org/schema/beans ">
     <bean class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
 
     <!-- Component Scan -->
-    <context:component-scan base-package="com.gevernova"/>
+    <context:component-scan base-package="com.gevernova.controllers"/>
 
     <!-- Enable @Controller, @RequestMapping, etc -->
     <mvc:annotation-driven/>
