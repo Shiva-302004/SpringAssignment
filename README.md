@@ -32,6 +32,3 @@ This project follows clean architecture and provides robust implementations of A
 
 
 
-
-## 📁 Project Structure
-
